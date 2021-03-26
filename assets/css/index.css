@@ -127,7 +127,7 @@
 
 /*============== RESPONSIVIDADE ===============*/
 
-@media only screen and (min-width: 319px) and (max-width: 380px) {
+@media only screen and (min-width: 319px) and (max-width: 420px) {
 
 * {
     margin: 0 auto;
