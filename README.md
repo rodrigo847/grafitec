@@ -47,3 +47,9 @@
 ## Contato
 
 * [ ] A Grafitec
+
+=============================================================================================
+
+## Perguntas a serem respondidas
+
+* Qual fonte usar de padrão no site? Atual 26/03/2021 - Open Sans Foundation

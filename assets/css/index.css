@@ -1,4 +1,124 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+/*============== LOGO ===============*/
+
+.section--container-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+
+    height: 100px;
+}
+
+.logo--grafitec {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.logo--grafitec img {
+    width: 160px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.logo--grafitec img:hover {
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tel--grafitec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tel--grafitec img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.tel--grafitec1,
+.tel--grafitec2,
+.tel--grafitec3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 5px;
+    color: #34A774;
+
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*============== MENU ===============*/
+
+.section--container-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #34A774;
+
+    height: 50px;
+}
+
+.container--menu,
+.container--menu_active {
+    border: 1px solid #2C8B61;
+    
+}
+
+.container--menu a {
+    height: 48px;
+    width: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.container--menu a:hover {
+    background-color: #2C8B61;
+    transition: all 0.2s;
+    
+}
+
+.container--menu_active a {
+    background-color: #2C8B61;
+
+    height: 48px;
+    width: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*============== CORPO ===============*/
